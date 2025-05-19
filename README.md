@@ -1,4 +1,4 @@
-### Pengumpulan Tugas W5 Otomata E 2025
+### Pengumpulan Tugas W11 Otomata E 2025
 Anggota Kelompok:
 |    NRP     |      Name      |
 | :--------: | :------------: |
