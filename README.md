@@ -11,10 +11,11 @@ Penjelasan Mengenai CYK Algorithm dan Cara Kerjanya
 CYK (Cocke–Younger–Kasami) Algorithm adalah algoritma yang digunakan untuk mengecek apakah sebuah string bisa dibentuk dari sebuah grammar bebas konteks (CFG) yang sudah ditulis dalam bentuk Chomsky Normal Form (CNF).
 
 Apa itu CNF (Chomsky Normal Form)?
-Grammar disebut dalam bentuk CNF jika semua aturannya (produksi) memenuhi syarat berikut:
+Grammar disebut dalam bentuk CNF jika semua aturannya (produksi) memenuhi syarat :
 
 Bentuknya hanya boleh:
-A → BC (dua non-terminal), atau
+A → BC (dua non-terminal), 
+       atau
 A → a (satu terminal).
 
 Tidak boleh ada ε-productions, unit productions, atau produksi dengan lebih dari dua non-terminal.
@@ -26,7 +27,7 @@ Cara kerja algoritma CYK:
 4. Di akhir, jika simbol awal (start symbol, biasanya S) muncul di tabel paling atas (table[0][n-1]), berarti string diterima oleh grammar.
 
 Cara Menggunakan Program
-Program ini ditulis dalam bahasa Java dan dijalankan menggunakan BlueJ. Berikut langkah-langkah menjalankannya:
+Program ini ditulis dalam bahasa Java dijalankan menggunakan BlueJ. Berikut langkah-langkah menjalankannya:
 1. Buka BlueJ dan buat project baru.
 2. Tambahkan class baru dengan nama CYKParser.
 3. Salin dan tempel kode program ke dalam class tersebut.
